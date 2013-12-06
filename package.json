@@ -1,0 +1,20 @@
+{
+	"name": "crackajax",
+	"version": "0.1.0",
+	"author": "SheetJS",
+	"description": "[MS-OFFCRYPTO] tools.  Currently a validator for XLS passwords",
+	"keywords": [ "xls", "office", "excel", "password" ],
+	"bin": {
+		"crackajax": "./crackajax.njs"
+	},
+	"main": "./crackajax",
+	"dependencies": {
+		"xlsjs":""
+	},
+	"repository": {
+		"type":"git",
+		"url": "git://github.com/SheetJS/crackajax.git"
+	},
+	"bugs": { "url": "https://github.com/SheetJS/crackajax/issues" },
+	"engines": { "node": ">=0.8" }
+}
